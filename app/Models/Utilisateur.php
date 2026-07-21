@@ -9,7 +9,7 @@ use App\Core\Model;
  */
 class Utilisateur extends Model
 {
-    protected $table = 'utilisateurs';
+    protected string $table = 'utilisateurs';
 
     /**
      * Recherche un utilisateur par son email (utilisé pour le login).
