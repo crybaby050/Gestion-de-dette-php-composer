@@ -1,15 +1,25 @@
 {
-    "name": "user/gesclasse-poo",
-    "autoload": {
-        "psr-4": {
-            "User\\GesclassePoo\\": "src/"
-        }
-    },
+    "name": "seydina/gestion-clients-dettes",
+    "description": "Application de gestion de clients et de leurs dettes (PHP OOP, PostgreSQL, architecture MVC maison)",
+    "type": "project",
+    "license": "MIT",
     "authors": [
         {
-            "name": "nexuusdev",
+            "name": "Seydina",
             "email": "benthiam750@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
 }
