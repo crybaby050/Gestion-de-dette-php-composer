@@ -8,7 +8,7 @@ use App\Core\Model;
  */
 class Dette extends Model
 {
-    protected $table = 'dettes';
+    protected string $table = 'dettes';
 
     public const STATUTS = ['solde', 'non_solde'];
 

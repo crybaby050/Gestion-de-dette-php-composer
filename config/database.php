@@ -9,6 +9,6 @@ return [
     'port'     => '5432',
     'db_name'  => 'gestion_clients_dettes',
     'username' => 'postgres',
-    'password' => '',
+    'password' => 'seydinathiam05',
     'charset'  => 'utf8',
 ];
