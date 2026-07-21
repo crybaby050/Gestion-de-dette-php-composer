@@ -37,6 +37,15 @@ if ($url === '') {
     $url = '/';
 }
 
+// AJOUT : rediriger la racine vers la page de connexion
+if ($url === '/') {
+    header('Location: ' . BASE_URL . '/login');
+    exit;
+}
+
+$method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+$routeKey = $method . ' ' . $url;
+
 $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 $routeKey = $method . ' ' . $url;
 
