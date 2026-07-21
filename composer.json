@@ -1,0 +1,15 @@
+{
+    "name": "user/gesclasse-poo",
+    "autoload": {
+        "psr-4": {
+            "User\\GesclassePoo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nexuusdev",
+            "email": "benthiam750@gmail.com"
+        }
+    ],
+    "require": {}
+}
